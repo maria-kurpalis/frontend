@@ -1,0 +1,140 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.5.1
+2 info using node@v18.16.0
+3 timing npm:load:whichnode Completed in 7ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 7ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\Maria\OneDrive\Documents\ChatGPT\Anacity\frontend\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 9ms
+11 timing config:load:file:C:\Users\Maria\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\Maria\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 3ms
+16 timing config:load Completed in 31ms
+17 timing npm:load:configload Completed in 31ms
+18 timing npm:load:mkdirpcache Completed in 2ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install typescript vite @vitejs/plugin-react @types/react @types/react-dom @types/node @playwright/test
+21 verbose argv "install" "--save-dev" "typescript" "vite" "@vitejs/plugin-react" "@types/react" "@types/react-dom" "@types/node" "@playwright/test" "--offline" "false" "--cache" ".npm-cache"
+22 timing npm:load:setTitle Completed in 4ms
+23 timing config:load:flatten Completed in 8ms
+24 timing npm:load:display Completed in 11ms
+25 verbose logfile logs-max:10 dir:C:\Users\Maria\OneDrive\Documents\ChatGPT\Anacity\frontend\.npm-cache\_logs\2026-09-03T13_47_31_515Z-
+26 verbose logfile C:\Users\Maria\OneDrive\Documents\ChatGPT\Anacity\frontend\.npm-cache\_logs\2026-09-03T13_47_31_515Z-debug-0.log
+27 timing npm:load:logFile Completed in 12ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 68ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 94ms
+34 timing idealTree:userRequests Completed in 4ms
+35 silly idealTree buildDeps
+36 silly fetch manifest typescript@*
+37 timing arborist:ctor Completed in 1ms
+38 http fetch GET 200 https://registry.npmjs.org/typescript 861ms (cache miss)
+39 silly fetch manifest vite@*
+40 http fetch GET 200 https://registry.npmjs.org/vite 279ms (cache miss)
+41 silly fetch manifest @types/node@*
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 434ms (cache miss)
+43 silly fetch manifest @vitejs/devtools@^0.4.0 || ^0.5.0
+44 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools 1088ms (cache miss)
+45 silly fetch manifest @vitejs/devtools-oxc@^0.5.2
+46 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-oxc 1547ms (cache miss)
+47 silly fetch manifest @vitejs/devtools-rolldown@^0.5.2
+48 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-rolldown 1263ms (cache miss)
+49 silly fetch manifest @vitejs/devtools-vite@^0.5.2
+50 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-vite 970ms (cache miss)
+51 silly fetch manifest @vitejs/devtools-vitest@^0.5.2
+52 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-vitest 777ms (cache miss)
+53 silly fetch manifest vitest@*
+54 http fetch GET 200 https://registry.npmjs.org/vitest 178ms (cache miss)
+55 silly fetch manifest @edge-runtime/vm@*
+56 http fetch GET 200 https://registry.npmjs.org/@edge-runtime%2fvm 1094ms (cache miss)
+57 silly fetch manifest @opentelemetry/api@^1.9.0
+58 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 841ms (cache miss)
+59 silly fetch manifest @vitest/browser-playwright@5.0.0
+60 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-playwright 3684ms (cache miss)
+61 silly fetch manifest playwright@*
+62 http fetch GET 200 https://registry.npmjs.org/playwright 1240ms (cache miss)
+63 silly fetch manifest @vitest/browser-preview@5.0.0
+64 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-preview 1340ms (cache miss)
+65 silly fetch manifest @vitest/browser-webdriverio@^5.0.0-beta.5 || >=5.0.0
+66 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-webdriverio 918ms (cache miss)
+67 silly fetch manifest vitest@5.0.0-beta.5
+68 silly fetch manifest @types/node@^22.0.0 || >=24.0.0
+69 silly fetch manifest @vitest/browser-playwright@5.0.0-beta.5
+70 silly fetch manifest @vitest/browser-preview@5.0.0-beta.5
+71 silly fetch manifest @vitest/browser-webdriverio@5.0.0-beta.5
+72 silly fetch manifest webdriverio@*
+73 http fetch GET 200 https://registry.npmjs.org/webdriverio 873ms (cache miss)
+74 silly fetch manifest puppeteer-core@>=22.x <=24.x
+75 http fetch GET 200 https://registry.npmjs.org/puppeteer-core 385ms (cache miss)
+76 silly fetch manifest @vitest/coverage-istanbul@5.0.0-beta.5
+77 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-istanbul 859ms (cache miss)
+78 silly fetch manifest @vitest/coverage-v8@5.0.0-beta.5
+79 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-v8 1177ms (cache miss)
+80 silly fetch manifest @vitest/browser@5.0.0-beta.5
+81 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser 1526ms (cache miss)
+82 silly fetch manifest @vitest/ui@5.0.0-beta.5
+83 http fetch GET 200 https://registry.npmjs.org/@vitest%2fui 936ms (cache miss)
+84 silly fetch manifest happy-dom@*
+85 http fetch GET 200 https://registry.npmjs.org/happy-dom 428ms (cache miss)
+86 silly fetch manifest jsdom@*
+87 http fetch GET 200 https://registry.npmjs.org/jsdom 895ms (cache miss)
+88 silly fetch manifest canvas@^3.2.3
+89 http fetch GET 200 https://registry.npmjs.org/canvas 381ms (cache miss)
+90 silly fetch manifest vite@^6.4.0 || ^7.0.0 || ^8.0.0
+91 silly fetch manifest esbuild@^0.27.0 || ^0.28.0
+92 http fetch GET 200 https://registry.npmjs.org/esbuild 145ms (cache miss)
+93 silly fetch manifest jiti@>=1.21.0
+94 http fetch GET 200 https://registry.npmjs.org/jiti 629ms (cache miss)
+95 silly fetch manifest less@^4.0.0
+96 http fetch GET 200 https://registry.npmjs.org/less 371ms (cache miss)
+97 silly fetch manifest sass@^1.70.0
+98 http fetch GET 200 https://registry.npmjs.org/sass 98ms (cache miss)
+99 silly fetch manifest sass-embedded@^1.70.0
+100 http fetch GET 200 https://registry.npmjs.org/sass-embedded 328ms (cache miss)
+101 silly fetch manifest stylus@>=0.54.8
+102 http fetch GET 200 https://registry.npmjs.org/stylus 322ms (cache miss)
+103 silly fetch manifest sugarss@^5.0.0
+104 http fetch GET 200 https://registry.npmjs.org/sugarss 320ms (cache miss)
+105 silly fetch manifest postcss@^8.3.3
+106 http fetch GET 200 https://registry.npmjs.org/postcss 124ms (cache miss)
+107 silly fetch manifest terser@^5.16.0
+108 http fetch GET 200 https://registry.npmjs.org/terser 362ms (cache miss)
+109 silly fetch manifest tsx@^4.8.1
+110 http fetch GET 200 https://registry.npmjs.org/tsx 85ms (cache miss)
+111 silly fetch manifest yaml@^2.4.2
+112 http fetch GET 200 https://registry.npmjs.org/yaml 58ms (cache miss)
+113 timing idealTree Completed in 27459ms
+114 timing command:install Completed in 27469ms
+115 verbose stack TypeError: Cannot read properties of null (reading 'edgesOut')
+115 verbose stack     at [loadPeerSet] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1307:38)
+115 verbose stack     at async [loadPeerSet] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1315:11)
+115 verbose stack     at async [loadPeerSet] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1315:11)
+115 verbose stack     at async [loadPeerSet] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1315:11)
+115 verbose stack     at async [buildDepStep] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:929:11)
+115 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:207:7)
+115 verbose stack     at async Promise.all (index 1)
+115 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:159:5)
+115 verbose stack     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:146:5)
+115 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli.js:134:5)
+116 verbose cwd C:\Users\Maria\OneDrive\Documents\ChatGPT\Anacity\frontend
+117 verbose Windows_NT 10.0.26200
+118 verbose node v18.16.0
+119 verbose npm  v9.5.1
+120 error Cannot read properties of null (reading 'edgesOut')
+121 verbose exit 1
+122 timing npm Completed in 27588ms
+123 verbose unfinished npm timer reify 1788443251629
+124 verbose unfinished npm timer reify:loadTrees 1788443251633
+125 verbose unfinished npm timer idealTree:buildDeps 1788443251734
+126 verbose unfinished npm timer idealTree:#root 1788443251735
+127 verbose code 1
+128 error A complete log of this run can be found in:
+128 error     C:\Users\Maria\OneDrive\Documents\ChatGPT\Anacity\frontend\.npm-cache\_logs\2026-09-03T13_47_31_515Z-debug-0.log

@@ -1,0 +1,14 @@
+.layout { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .85fr); gap: 24px; align-items: start; }
+.column { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.refreshRow { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; overflow-wrap: anywhere; }
+.processing { font-size: 13px; color: #52695d; padding-bottom: 16px; }
+.decisionPanel { border-color: #adc6b6; }
+.decisionPanel button { margin-top: 16px; }
+.decisionPanel label { margin-top: 16px; }
+.checklist { list-style: none; padding: 0; margin: 0; }
+.checklistRow { padding: 16px 0; border-bottom: 1px solid #e5eae5; font-size: 13px; }
+.checklistRow form { margin-top: 12px; }
+.checklistRow select { width: auto; max-width: 100%; }
+.checklistRow p { margin-top: 4px; }
+.srOnly { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .layout > aside { grid-row: 1; } }

@@ -1,0 +1,398 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.5.1
+2 info using node@v18.16.0
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 6ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\Maria\OneDrive\Documents\ChatGPT\Anacity\frontend\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 7ms
+11 timing config:load:file:C:\Users\Maria\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\Maria\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 25ms
+17 timing npm:load:configload Completed in 25ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install react react-dom react-router-dom axios
+21 verbose argv "install" "react" "react-dom" "react-router-dom" "axios" "--offline" "false" "--cache" ".npm-cache"
+22 timing npm:load:setTitle Completed in 4ms
+23 timing config:load:flatten Completed in 7ms
+24 timing npm:load:display Completed in 10ms
+25 verbose logfile logs-max:10 dir:C:\Users\Maria\OneDrive\Documents\ChatGPT\Anacity\frontend\.npm-cache\_logs\2026-09-03T13_47_21_106Z-
+26 verbose logfile C:\Users\Maria\OneDrive\Documents\ChatGPT\Anacity\frontend\.npm-cache\_logs\2026-09-03T13_47_21_106Z-debug-0.log
+27 timing npm:load:logFile Completed in 26ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 70ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing arborist:ctor Completed in 0ms
+34 timing idealTree:init Completed in 14ms
+35 timing idealTree:userRequests Completed in 3ms
+36 silly idealTree buildDeps
+37 silly fetch manifest react@*
+38 http fetch GET 200 https://registry.npmjs.org/react 894ms (cache miss)
+39 silly fetch manifest react-dom@*
+40 http fetch GET 200 https://registry.npmjs.org/npm 1033ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/react-dom 533ms (cache miss)
+42 silly fetch manifest react-router-dom@*
+43 http fetch GET 200 https://registry.npmjs.org/react-router-dom 415ms (cache miss)
+44 silly fetch manifest axios@*
+45 http fetch GET 200 https://registry.npmjs.org/axios 190ms (cache miss)
+46 silly placeDep ROOT axios@1.20.0 OK for: anacity-resident@0.1.0 want: *
+47 silly placeDep ROOT react@19.2.8 OK for: anacity-resident@0.1.0 want: *
+48 silly placeDep ROOT react-dom@19.2.8 OK for: anacity-resident@0.1.0 want: *
+49 silly placeDep ROOT react-router-dom@7.18.3 OK for: anacity-resident@0.1.0 want: *
+50 silly fetch manifest form-data@^4.0.6
+51 silly fetch manifest proxy-from-env@^2.1.0
+52 silly fetch manifest follow-redirects@^1.16.0
+53 silly fetch manifest https-proxy-agent@^5.0.1
+54 silly fetch manifest scheduler@^0.27.0
+55 silly fetch manifest react-router@7.18.3
+56 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 63ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/form-data 70ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 152ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/follow-redirects 158ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/react-router 522ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/scheduler 972ms (cache miss)
+62 timing idealTree:#root Completed in 3134ms
+63 silly placeDep ROOT follow-redirects@1.16.0 OK for: axios@1.20.0 want: ^1.16.0
+64 silly placeDep ROOT form-data@4.0.6 OK for: axios@1.20.0 want: ^4.0.6
+65 silly placeDep ROOT https-proxy-agent@5.0.1 OK for: axios@1.20.0 want: ^5.0.1
+66 silly placeDep ROOT proxy-from-env@2.1.0 OK for: axios@1.20.0 want: ^2.1.0
+67 silly fetch manifest hasown@^2.0.4
+68 silly fetch manifest asynckit@^0.4.0
+69 silly fetch manifest mime-types@^2.1.35
+70 silly fetch manifest combined-stream@^1.0.8
+71 silly fetch manifest es-set-tostringtag@^2.1.0
+72 silly fetch manifest debug@4
+73 silly fetch manifest agent-base@6
+74 http fetch GET 200 https://registry.npmjs.org/asynckit 132ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag 134ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/combined-stream 136ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/debug 140ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/agent-base 153ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/mime-types 162ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/hasown 178ms (cache miss)
+81 timing idealTree:node_modules/axios Completed in 195ms
+82 timing idealTree:node_modules/follow-redirects Completed in 0ms
+83 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.6 want: ^0.4.0
+84 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.6 want: ^1.0.8
+85 silly placeDep ROOT es-set-tostringtag@2.1.0 OK for: form-data@4.0.6 want: ^2.1.0
+86 silly placeDep ROOT hasown@2.0.4 OK for: form-data@4.0.6 want: ^2.0.4
+87 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.6 want: ^2.1.35
+88 silly fetch manifest delayed-stream@~1.0.0
+89 silly fetch manifest es-errors@^1.3.0
+90 silly fetch manifest get-intrinsic@^1.2.6
+91 silly fetch manifest has-tostringtag@^1.0.2
+92 silly fetch manifest function-bind@^1.1.2
+93 silly fetch manifest mime-db@1.52.0
+94 http fetch GET 200 https://registry.npmjs.org/function-bind 138ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/delayed-stream 152ms (cache miss)
+96 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 153ms (cache miss)
+97 http fetch GET 200 https://registry.npmjs.org/es-errors 155ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/mime-db 153ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/has-tostringtag 471ms (cache miss)
+100 timing idealTree:node_modules/form-data Completed in 489ms
+101 timing idealTree:node_modules/asynckit Completed in 0ms
+102 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+103 timing idealTree:node_modules/combined-stream Completed in 2ms
+104 timing idealTree:node_modules/delayed-stream Completed in 0ms
+105 silly placeDep ROOT es-errors@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.3.0
+106 silly placeDep ROOT get-intrinsic@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.2.6
+107 silly placeDep ROOT has-tostringtag@1.0.2 OK for: es-set-tostringtag@2.1.0 want: ^1.0.2
+108 silly fetch manifest gopd@^1.2.0
+109 silly fetch manifest get-proto@^1.0.1
+110 silly fetch manifest has-symbols@^1.1.0
+111 silly fetch manifest es-object-atoms@^1.1.1
+112 silly fetch manifest math-intrinsics@^1.1.0
+113 silly fetch manifest es-define-property@^1.0.1
+114 silly fetch manifest call-bind-apply-helpers@^1.0.2
+115 silly fetch manifest has-symbols@^1.0.3
+116 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers 76ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/has-symbols 82ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/es-object-atoms 87ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/math-intrinsics 93ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/gopd 99ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/has-symbols 95ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/es-define-property 102ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/get-proto 230ms (cache miss)
+124 timing idealTree:node_modules/es-set-tostringtag Completed in 239ms
+125 timing idealTree:node_modules/es-errors Completed in 0ms
+126 silly placeDep ROOT call-bind-apply-helpers@1.0.2 OK for: get-intrinsic@1.3.0 want: ^1.0.2
+127 silly placeDep ROOT es-define-property@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+128 silly placeDep ROOT es-object-atoms@1.1.2 OK for: get-intrinsic@1.3.0 want: ^1.1.1
+129 silly placeDep ROOT function-bind@1.1.2 OK for: get-intrinsic@1.3.0 want: ^1.1.2
+130 silly placeDep ROOT get-proto@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+131 silly placeDep ROOT gopd@1.2.0 OK for: get-intrinsic@1.3.0 want: ^1.2.0
+132 silly placeDep ROOT has-symbols@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+133 silly placeDep ROOT math-intrinsics@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+134 silly fetch manifest dunder-proto@^1.0.1
+135 http fetch GET 200 https://registry.npmjs.org/dunder-proto 64ms (cache miss)
+136 timing idealTree:node_modules/get-intrinsic Completed in 78ms
+137 timing idealTree:node_modules/call-bind-apply-helpers Completed in 0ms
+138 timing idealTree:node_modules/es-define-property Completed in 0ms
+139 timing idealTree:node_modules/es-object-atoms Completed in 0ms
+140 timing idealTree:node_modules/function-bind Completed in 0ms
+141 silly placeDep ROOT dunder-proto@1.0.1 OK for: get-proto@1.0.1 want: ^1.0.1
+142 timing idealTree:node_modules/get-proto Completed in 4ms
+143 timing idealTree:node_modules/dunder-proto Completed in 0ms
+144 timing idealTree:node_modules/gopd Completed in 0ms
+145 timing idealTree:node_modules/has-symbols Completed in 0ms
+146 timing idealTree:node_modules/has-tostringtag Completed in 0ms
+147 timing idealTree:node_modules/hasown Completed in 0ms
+148 silly placeDep ROOT agent-base@6.0.2 OK for: https-proxy-agent@5.0.1 want: 6
+149 silly placeDep ROOT debug@4.4.3 OK for: https-proxy-agent@5.0.1 want: 4
+150 silly fetch manifest ms@^2.1.3
+151 http fetch GET 200 https://registry.npmjs.org/ms 181ms (cache miss)
+152 timing idealTree:node_modules/https-proxy-agent Completed in 186ms
+153 timing idealTree:node_modules/agent-base Completed in 0ms
+154 silly placeDep ROOT ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+155 timing idealTree:node_modules/debug Completed in 1ms
+156 timing idealTree:node_modules/math-intrinsics Completed in 0ms
+157 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+158 timing idealTree:node_modules/mime-types Completed in 1ms
+159 timing idealTree:node_modules/mime-db Completed in 0ms
+160 timing idealTree:node_modules/ms Completed in 0ms
+161 timing idealTree:node_modules/proxy-from-env Completed in 0ms
+162 timing idealTree:node_modules/react Completed in 0ms
+163 silly placeDep ROOT scheduler@0.27.0 OK for: react-dom@19.2.8 want: ^0.27.0
+164 timing idealTree:node_modules/react-dom Completed in 1ms
+165 silly fetch manifest react@>=18
+166 silly fetch manifest react-dom@>=18
+167 silly placeDep ROOT react-router@7.18.3 OK for: react-router-dom@7.18.3 want: 7.18.3
+168 silly fetch manifest cookie@^1.0.1
+169 silly fetch manifest set-cookie-parser@^2.6.0
+170 http fetch GET 200 https://registry.npmjs.org/cookie 211ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser 669ms (cache miss)
+172 timing idealTree:node_modules/react-router-dom Completed in 678ms
+173 silly placeDep ROOT cookie@1.1.1 OK for: react-router@7.18.3 want: ^1.0.1
+174 silly placeDep ROOT set-cookie-parser@2.7.2 OK for: react-router@7.18.3 want: ^2.6.0
+175 timing idealTree:node_modules/react-router Completed in 4ms
+176 timing idealTree:node_modules/cookie Completed in 0ms
+177 timing idealTree:node_modules/scheduler Completed in 0ms
+178 timing idealTree:node_modules/set-cookie-parser Completed in 0ms
+179 timing idealTree:buildDeps Completed in 5017ms
+180 timing idealTree:fixDepFlags Completed in 2ms
+181 warn EBADENGINE Unsupported engine {
+181 warn EBADENGINE   package: 'anacity-resident@0.1.0',
+181 warn EBADENGINE   required: { node: '>=22.12' },
+181 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+181 warn EBADENGINE }
+182 warn EBADENGINE Unsupported engine {
+182 warn EBADENGINE   package: 'react-router-dom@7.18.3',
+182 warn EBADENGINE   required: { node: '>=20.0.0' },
+182 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+182 warn EBADENGINE }
+183 warn EBADENGINE Unsupported engine {
+183 warn EBADENGINE   package: 'react-router@7.18.3',
+183 warn EBADENGINE   required: { node: '>=20.0.0' },
+183 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+183 warn EBADENGINE }
+184 timing idealTree Completed in 5046ms
+185 timing reify:loadTrees Completed in 5047ms
+186 timing reify:diffTrees Completed in 3ms
+187 silly reify moves {}
+188 timing reify:retireShallow Completed in 1ms
+189 timing reify:createSparse Completed in 48ms
+190 timing reify:loadBundles Completed in 0ms
+191 silly audit bulk request {
+191 silly audit   axios: [ '1.20.0' ],
+191 silly audit   react: [ '19.2.8' ],
+191 silly audit   'react-dom': [ '19.2.8' ],
+191 silly audit   'react-router-dom': [ '7.18.3' ],
+191 silly audit   'follow-redirects': [ '1.16.0' ],
+191 silly audit   'form-data': [ '4.0.6' ],
+191 silly audit   'https-proxy-agent': [ '5.0.1' ],
+191 silly audit   'proxy-from-env': [ '2.1.0' ],
+191 silly audit   asynckit: [ '0.4.0' ],
+191 silly audit   'combined-stream': [ '1.0.8' ],
+191 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+191 silly audit   hasown: [ '2.0.4' ],
+191 silly audit   'mime-types': [ '2.1.35' ],
+191 silly audit   'delayed-stream': [ '1.0.0' ],
+191 silly audit   'es-errors': [ '1.3.0' ],
+191 silly audit   'get-intrinsic': [ '1.3.0' ],
+191 silly audit   'has-tostringtag': [ '1.0.2' ],
+191 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+191 silly audit   'es-define-property': [ '1.0.1' ],
+191 silly audit   'es-object-atoms': [ '1.1.2' ],
+191 silly audit   'function-bind': [ '1.1.2' ],
+191 silly audit   'get-proto': [ '1.0.1' ],
+191 silly audit   gopd: [ '1.2.0' ],
+191 silly audit   'has-symbols': [ '1.1.0' ],
+191 silly audit   'math-intrinsics': [ '1.1.0' ],
+191 silly audit   'dunder-proto': [ '1.0.1' ],
+191 silly audit   'agent-base': [ '6.0.2' ],
+191 silly audit   debug: [ '4.4.3' ],
+191 silly audit   ms: [ '2.1.3' ],
+191 silly audit   'mime-db': [ '1.52.0' ],
+191 silly audit   scheduler: [ '0.27.0' ],
+191 silly audit   'react-router': [ '7.18.3' ],
+191 silly audit   cookie: [ '1.1.1' ],
+191 silly audit   'set-cookie-parser': [ '2.7.2' ]
+191 silly audit }
+192 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz. Extracting by manifest.
+193 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-7.18.3.tgz. Extracting by manifest.
+194 silly tarball no local data for set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz. Extracting by manifest.
+195 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+196 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+197 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+198 silly tarball no local data for math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+199 silly tarball no local data for agent-base@https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz. Extracting by manifest.
+200 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+201 silly tarball no local data for dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz. Extracting by manifest.
+202 silly tarball no local data for gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+203 silly tarball no local data for get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz. Extracting by manifest.
+204 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+205 silly tarball no local data for has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz. Extracting by manifest.
+206 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+207 silly tarball no local data for es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.2.tgz. Extracting by manifest.
+208 silly tarball no local data for es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz. Extracting by manifest.
+209 silly tarball no local data for get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz. Extracting by manifest.
+210 silly tarball no local data for call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz. Extracting by manifest.
+211 silly tarball no local data for es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+212 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+213 silly tarball no local data for es-set-tostringtag@https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz. Extracting by manifest.
+214 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+215 silly tarball no local data for hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.4.tgz. Extracting by manifest.
+216 silly tarball no local data for https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz. Extracting by manifest.
+217 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+218 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+219 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.6.tgz. Extracting by manifest.
+220 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz. Extracting by manifest.
+221 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-2.1.0.tgz. Extracting by manifest.
+222 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz. Extracting by manifest.
+223 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.3.tgz. Extracting by manifest.
+224 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.8.tgz. Extracting by manifest.
+225 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.20.0.tgz. Extracting by manifest.
+226 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 400ms
+227 timing auditReport:getReport Completed in 403ms
+228 silly audit report {}
+229 timing auditReport:init Completed in 0ms
+230 timing reify:audit Completed in 405ms
+231 http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 471ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 524ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz 533ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.2.tgz 519ms (cache miss)
+235 timing reifyNode:node_modules/ms Completed in 596ms
+236 timing reifyNode:node_modules/set-cookie-parser Completed in 606ms
+237 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 563ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 611ms (cache miss)
+239 timing reifyNode:node_modules/combined-stream Completed in 722ms
+240 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 659ms (cache miss)
+241 timing reifyNode:node_modules/mime-types Completed in 739ms
+242 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz 698ms (cache miss)
+243 timing reifyNode:node_modules/cookie Completed in 759ms
+244 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 742ms (cache miss)
+245 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-2.1.0.tgz 706ms (cache miss)
+246 timing reifyNode:node_modules/proxy-from-env Completed in 820ms
+247 timing reifyNode:node_modules/mime-db Completed in 822ms
+248 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.3.tgz 737ms (cache miss)
+249 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 769ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 772ms (cache miss)
+251 timing reifyNode:node_modules/delayed-stream Completed in 857ms
+252 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz 769ms (cache miss)
+253 timing reifyNode:node_modules/react-router-dom Completed in 868ms
+254 http fetch GET 200 https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz 818ms (cache miss)
+255 timing reifyNode:node_modules/es-set-tostringtag Completed in 884ms
+256 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 826ms (cache miss)
+257 timing reifyNode:node_modules/debug Completed in 887ms
+258 timing reifyNode:node_modules/follow-redirects Completed in 887ms
+259 http fetch GET 200 https://registry.npmjs.org/hasown/-/hasown-2.0.4.tgz 810ms (cache miss)
+260 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.6.tgz 806ms (cache miss)
+261 timing reifyNode:node_modules/form-data Completed in 896ms
+262 timing reifyNode:node_modules/agent-base Completed in 902ms
+263 timing reifyNode:node_modules/hasown Completed in 907ms
+264 http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 846ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz 822ms (cache miss)
+266 timing reifyNode:node_modules/gopd Completed in 914ms
+267 timing reifyNode:node_modules/https-proxy-agent Completed in 918ms
+268 http fetch GET 200 https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 896ms (cache miss)
+269 timing reifyNode:node_modules/function-bind Completed in 962ms
+270 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 912ms (cache miss)
+271 http fetch GET 200 https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 913ms (cache miss)
+272 timing reifyNode:node_modules/get-proto Completed in 977ms
+273 timing reifyNode:node_modules/scheduler Completed in 978ms
+274 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 909ms (cache miss)
+275 timing reifyNode:node_modules/dunder-proto Completed in 989ms
+276 timing reifyNode:node_modules/get-intrinsic Completed in 993ms
+277 http fetch GET 200 https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 923ms (cache miss)
+278 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 931ms (cache miss)
+279 timing reifyNode:node_modules/es-object-atoms Completed in 1003ms
+280 timing reifyNode:node_modules/has-tostringtag Completed in 1006ms
+281 timing reifyNode:node_modules/has-symbols Completed in 1014ms
+282 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 969ms (cache miss)
+283 timing reifyNode:node_modules/call-bind-apply-helpers Completed in 1050ms
+284 http fetch GET 200 https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 980ms (cache miss)
+285 timing reifyNode:node_modules/es-errors Completed in 1068ms
+286 timing reifyNode:node_modules/math-intrinsics Completed in 1177ms
+287 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.8.tgz 1047ms (cache miss)
+288 timing reifyNode:node_modules/react Completed in 1187ms
+289 http fetch GET 200 https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 1237ms (cache miss)
+290 timing reifyNode:node_modules/es-define-property Completed in 1395ms
+291 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 1349ms (cache miss)
+292 timing reifyNode:node_modules/asynckit Completed in 1442ms
+293 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.20.0.tgz 1743ms (cache miss)
+294 timing reifyNode:node_modules/axios Completed in 1886ms
+295 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz 1866ms (cache miss)
+296 timing reifyNode:node_modules/react-dom Completed in 1971ms
+297 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-7.18.3.tgz 2281ms (cache miss)
+298 timing reifyNode:node_modules/react-router Completed in 2330ms
+299 timing reify:unpack Completed in 2331ms
+300 timing reify:unretire Completed in 1ms
+301 timing build:queue Completed in 4ms
+302 timing build:deps Completed in 5ms
+303 timing build Completed in 5ms
+304 timing reify:build Completed in 7ms
+305 timing reify:trash Completed in 0ms
+306 timing reify:save Completed in 41ms
+307 timing reify Completed in 7600ms
+308 silly ADD node_modules/set-cookie-parser
+309 silly ADD node_modules/cookie
+310 silly ADD node_modules/react-router
+311 silly ADD node_modules/scheduler
+312 silly ADD node_modules/mime-db
+313 silly ADD node_modules/ms
+314 silly ADD node_modules/debug
+315 silly ADD node_modules/agent-base
+316 silly ADD node_modules/dunder-proto
+317 silly ADD node_modules/math-intrinsics
+318 silly ADD node_modules/has-symbols
+319 silly ADD node_modules/gopd
+320 silly ADD node_modules/get-proto
+321 silly ADD node_modules/function-bind
+322 silly ADD node_modules/es-object-atoms
+323 silly ADD node_modules/es-define-property
+324 silly ADD node_modules/call-bind-apply-helpers
+325 silly ADD node_modules/has-tostringtag
+326 silly ADD node_modules/get-intrinsic
+327 silly ADD node_modules/es-errors
+328 silly ADD node_modules/delayed-stream
+329 silly ADD node_modules/mime-types
+330 silly ADD node_modules/hasown
+331 silly ADD node_modules/es-set-tostringtag
+332 silly ADD node_modules/combined-stream
+333 silly ADD node_modules/asynckit
+334 silly ADD node_modules/proxy-from-env
+335 silly ADD node_modules/https-proxy-agent
+336 silly ADD node_modules/form-data
+337 silly ADD node_modules/follow-redirects
+338 silly ADD node_modules/react-router-dom
+339 silly ADD node_modules/react-dom
+340 silly ADD node_modules/react
+341 silly ADD node_modules/axios
+342 timing command:install Completed in 7615ms
+343 notice
+343 notice New major version of npm available! 9.5.1 -> 12.0.2
+343 notice Changelog: <https://github.com/npm/cli/releases/tag/v12.0.2>
+343 notice Run `npm install -g npm@12.0.2` to update!
+343 notice
+344 verbose exit 0
+345 timing npm Completed in 7725ms
+346 info ok
